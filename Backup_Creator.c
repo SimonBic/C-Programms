@@ -1,3 +1,9 @@
+//Backup Creator - Simon Bichler
+//Compile using gcc ./Backup_Creator.c
+//Create Backup by path.../a.out source_path oldbackup_path newbackup_path
+//oldbackup_path meaning if you already created any backups of chosen directory. Creates hardlinks to use less memory
+// and using directly these inodes on your drive.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
